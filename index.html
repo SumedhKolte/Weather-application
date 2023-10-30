@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- tittle -->
+    <div>
+        <h2>Weather App</h2>
+    </div>
+
+    <div class="middle-container">
+
+        <div class="left-container">
+            <div>
+                <p class="left-container-tittle">local weather report</p>
+            </div>
+
+            <!-- horizontal line -->
+            <hr>  
+       
+            <div class="mid-section-left-container">
+                
+                    <div class="LC-flex">
+                        <img  class="weather-icon" src="sun.png" >
+                        <div>
+                            <p class="city">Mumbai</p>
+                            <p class="weather">Sunny</p>
+                        </div>
+                    </div>
+
+                    <div class="m-left-footer">
+
+                        <div>
+                            <img src="Wind speed.png" class="wind-speed">
+                            <p class="wind-speed-text">14 KM/H</p>
+                            <p class="temperature">22°C</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-container">
+                <div class="search-panel">
+                    <input type="text" placeholder="Search Here" class="search-text">
+                    <button class="search-button">
+                        <img src="search.png" alt="search-icon" class="search-icon">
+                    </button>
+                </div>
+
+
+                <div class="more-info">
+                    <div class="more-info-tittle">
+                        <p class="more-info-head">More Forecast info</p>
+                    </div>
+
+                    <!-- horizontal line -->
+                    <hr> 
+
+                    <div>
+
+                        <p class="more-info-details">
+                            Humidity
+                            <span class="numbers1">
+                                70%
+                            </span>
+                        </p>
+
+                        <p class="more-info-details">
+                            Sunrise
+                            <span class="numbers2">
+                                04:23 AM
+                            </span>
+                        </p>
+
+                        <p class="more-info-details">
+                            Sunset
+                            <span class="numbers3">
+                                04:23 AM
+                            </span>
+                        </p>
+
+                        <p class="more-info-details">
+                           Pressure
+                            <span class="numbers4">
+                                70%
+                            </span>
+                        </p>
+
+
+                    </div>
+
+                </div>
+            </div>
+    </div>
+
+        <!-- Five Days Forecast -->
+    
+    
+    <div class="footer-container">
+
+        <div class="days">
+
+            <div class="days-container">
+                <p class="diff-days1" id="day1">Monday</p>
+                <img src="rainy.png" class="cloud">
+                <p class=days-temp-1>22°C</p>
+            </div>
+
+
+            <div class="vertical"></div>
+
+
+            <div class="days-container">
+                <p class="diff-days2" id="day2">Tuesday</p>
+                <img src="thunder.png" class="cloud">
+                <p class=days-temp-2>22°C</p>
+            </div>
+
+
+            <div class="vertical"></div>
+
+
+              <div class="days-container">
+                <p class="diff-days3" id="day3">Wednesday</p>
+                <img src="cold.png" class="cloud">
+                <p class=days-temp-3>22°C</p>
+            </div>
+
+
+            <div class="vertical"></div>
+             
+
+            <div class="days-container">
+                <p class="diff-days4" id="day4">Thursday</p>
+                <img src="sunny-clouds.png" class="cloud">
+                <p class=days-temp-4>22°C</p>
+            </div>
+
+
+            <div class="vertical"></div>
+             
+
+            <div class="days-container">
+                <p class="diff-days5" id="day5">Friday</p>
+                <img src="cloud.png" class="cloud">
+                <p class=days-temp-5>22°C</p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
